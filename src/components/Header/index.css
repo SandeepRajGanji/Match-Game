@@ -1,0 +1,24 @@
+.active-class {
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #fec653;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.normal-class {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.tab-items {
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}

@@ -1,0 +1,13 @@
+.image {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+li {
+  padding: 0px;
+}
+.image-button {
+  border: none;
+  background-color: transparent;
+}
