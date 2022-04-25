@@ -257,12 +257,12 @@ class App extends Component {
     randomImageData: imagesList[0],
     showScoreCard: false,
     sec: 60,
-    isTimerRunning: false,
+   
   }
 
   componentDidMount() {
     this.intervalId = setInterval(this.tick, 1000)
-    this.setState({isTimerRunning: true})
+   
   }
 
   tick = () => {
@@ -359,7 +359,7 @@ class App extends Component {
       scoreCount: 0,
       randomImageData: imagesList[0],
       showScoreCard: false,
-      isTimerRunning: false,
+      
       sec: 60,
     })
   }
